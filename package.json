@@ -1,0 +1,39 @@
+{
+  "name": "scribal-reader",
+  "version": "0.1.0",
+  "description": "Scribal Source Reader",
+  "license": "MIT",
+  "author": {
+    "name": "Jeff Nyman",
+    "email": "jeffnyman@gmail.com"
+  },
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 5"
+  },
+  "scripts": {
+    "test": "mocha test/lib/**/*spec.js --recursive",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/lib/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffnyman/scribal-reader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffnyman/scribal-reader/issues"
+  },
+  "homepage": "https://github.com/jeffnyman/scribal-reader#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "scribal-gherkin": "^0.1.0",
+    "minimatch": "^3.0.3"
+  }
+}
