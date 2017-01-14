@@ -6,6 +6,3 @@ node_js:
   - "7"
   - "6"
   - "5"
-
-after_script:
-  - npm run coverage

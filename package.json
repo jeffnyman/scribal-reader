@@ -1,6 +1,6 @@
 {
   "name": "scribal-reader",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Scribal Source Reader",
   "license": "MIT",
   "author": {
@@ -33,7 +33,7 @@
     "mocha": "^3.2.0"
   },
   "dependencies": {
-    "scribal-gherkin": "^0.1.0",
+    "scribal-gherkin": "^1.0.0",
     "minimatch": "^3.0.3"
   }
 }
